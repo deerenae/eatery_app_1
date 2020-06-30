@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'eatery_backend',
     'rest_framework', 
+    'frontend'
     
 ]
 
