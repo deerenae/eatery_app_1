@@ -5,7 +5,14 @@ import Dashboard from './restaurants/Dashboard';
 import { Provider } from 'react-redux';
 import store from '../store';
 
+
+// function parseResponse(response){
+//     console.log(response)
+// }
+
 class App extends Component {
+
+
     render(){
         return (
             <Provider store={store}>

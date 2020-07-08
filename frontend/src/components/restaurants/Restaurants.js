@@ -10,6 +10,7 @@ class Restaurants extends Component {
     }
 
     componentDidMount() {
+        console.log('Restaurant.js')
         this.props.getRestaurants()
     }
 
@@ -20,11 +21,13 @@ class Restaurants extends Component {
                 <div>
                     {this.props.restaurants.map(restaurant => (
                         <div key={restaurant.id}> 
-                            <div>{restaurant.id}</div>
                             <div>{restaurant.name}</div>
                             <div>{restaurant.address}</div>
-                            <div>{restaurant.hours}</div>
-                            <div>{restaurant.image}</div>
+                            <div>{restaurant.thumb}</div>
+                            <div>{restaurant.url}</div>
+                            <div>{restaurant.menu_url}</div>
+                            <div>{restaurant.has_table_booking}</div>
+                            <div>{restaurant.has_online_delivery}</div>
                         </div>
         
                     ))}
