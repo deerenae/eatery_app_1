@@ -1,1 +1,2 @@
-# eatery_app_1
+# eatery
+
